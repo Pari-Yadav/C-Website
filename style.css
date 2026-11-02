@@ -1,0 +1,49 @@
+body{
+background color: grey;
+padding: 30px
+}
+header {
+    background: #E6E6FA; color:#800080; text-align: center; padding: 22px 12px;
+}
+			
+pre.source-code{
+	background-color: Lavender;
+
+	border: 1px solid gray;
+	
+	padding: 20px;
+	overflow-x: auto;
+	font-family: Consolas,monospace;
+	line-height: 1.5;
+}
+pre.output{
+	background-color: black;
+	color: lightgreen;
+	border: 2px solid gray;
+	padding: 20px;
+	overflow-x: auto;
+	font-family: Consolas,monospace;
+	line-height: 1.5;
+}
+
+
+ul {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: stretch;
+    gap: 20px;
+    padding: 0;
+}
+
+
+button {
+    width: 200px;
+    height: 100px;
+    font-size: 16px;
+    padding: 20px;
+text-align: center;
+}
+li{
+margin:15px;
+}
